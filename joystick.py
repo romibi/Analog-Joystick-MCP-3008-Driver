@@ -5,11 +5,17 @@
 #
 # Analogue joystick version!
 #
+# Combination from:
+# ---------------------
 # Author : Matt Hawkins
 # Date   : 17/04/2014
-#
-# http://www.raspberrypi-spy.co.uk/
-#
+# http://www.raspberrypi-spy.co.uk/2014/04/using-a-joystick-on-the-raspberry-pi-using-an-mcp3008/
+# ---------------------
+# Author : pierpa86
+# https://www.raspberrypi.org/forums/viewtopic.php?f=32&t=147540
+# ---------------------
+# and perhaps more?
+# modified by romibi
 #--------------------------------------
 
 import spidev
@@ -57,12 +63,6 @@ while True:
   
 # Read switch state
   swt_val = ReadChannel(swt_channel)
-
-  # Calculate Button
-  #if swt_val<swt_split:
-    #button_pressed=1
-  #else:
-    #button_pressed=0
   
 # Print out results
   if enable_debug:
