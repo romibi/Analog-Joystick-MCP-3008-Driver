@@ -1,0 +1,6 @@
+[submodule "py-spidev"]
+	path = py-spidev
+	url = https://github.com/doceme/py-spidev.git
+[submodule "python-uinput"]
+	path = python-uinput
+	url = https://github.com/tuomasjjrasanen/python-uinput.git
