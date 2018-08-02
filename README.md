@@ -12,9 +12,9 @@ See: http://www.raspberrypi-spy.co.uk/2014/04/using-a-joystick-on-the-raspberry-
 | Xout     | Pin 2 (CH1)   | -            |
 | Yout     | Pin 3 (CH2)   | -            |
 | -        | Pin 10 (CS)   | Pin 24       |
-| -        | Pin 11 (DIN)  | Pin 24       |
-| -        | Pin 12 (DOUT) | Pin 24       |
-| -        | Pin 13 (CLK)  | Pin 24       |
+| -        | Pin 11 (DIN)  | Pin 19       |
+| -        | Pin 12 (DOUT) | Pin 21       |
+| -        | Pin 13 (CLK)  | Pin 23       |
 | GND      | Pin 9 (GND)   | GND          |
 |          | Pin 14 (AGND) | GND          |
 | VCC      | Pin 15 (VREF) | Pin 1 (3.3V) |
