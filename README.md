@@ -6,15 +6,16 @@ I used this instead of the [Cupcade Adapter](https://www.adafruit.com/product/19
 # Wiring
 See: http://www.raspberrypi-spy.co.uk/2014/04/using-a-joystick-on-the-raspberry-pi-using-an-mcp3008/
 
+# For Raspberry pi 3 the Wiring 
 | Joystick | MCP3008       | Pi           |
 |----------|---------------|--------------|
 | Sel      | Pin 1 (CH0)   | -            |
 | Xout     | Pin 2 (CH1)   | -            |
 | Yout     | Pin 3 (CH2)   | -            |
 | -        | Pin 10 (CS)   | Pin 24       |
-| -        | Pin 11 (DIN)  | Pin 24       |
-| -        | Pin 12 (DOUT) | Pin 24       |
-| -        | Pin 13 (CLK)  | Pin 24       |
+| -        | Pin 11 (DIN)  | Pin 19       |
+| -        | Pin 12 (DOUT) | Pin 21       |
+| -        | Pin 13 (CLK)  | Pin 23       |
 | GND      | Pin 9 (GND)   | GND          |
 |          | Pin 14 (AGND) | GND          |
 | VCC      | Pin 15 (VREF) | Pin 1 (3.3V) |
