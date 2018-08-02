@@ -26,6 +26,8 @@ import uinput
 # Open SPI bus
 spi = spidev.SpiDev()
 spi.open(0,0)
+# Set the Max Hz make the MCP3008 work well for the new kernal
+spi.max_speed_hz=1000000
 
 # Function to read SPI data from MCP3008 chip
 # Channel must be an integer 0-7
